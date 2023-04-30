@@ -11,7 +11,7 @@ y(n) = sqrt(x(n)^2+1)/x(n);
 end
 % initialization of the network
 P = x; T = y;
-% [-4 4] - the interval at which the approximation will be performed
+% [-2 2] - the interval at which the approximation will be performed
 % [10 1] - two layers of the network:
 % 10 - number of neurons in the first hidden layer
 % 1 - the number of neurons in the output layer
